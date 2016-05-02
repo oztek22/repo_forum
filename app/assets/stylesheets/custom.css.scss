@@ -1,0 +1,125 @@
+$navbar-default-bg: black;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#logo
+{
+  float: left;
+  font-size: 1.75em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover
+{
+  color:#fff;
+  text-decoration: none;
+}
+
+.center
+{
+  text-align: center;
+}
+
+.jumbotron
+{
+  background-image: asset-url('cover-page.png');
+  background-size: cover;
+  height:550px;
+  background-color:black;
+}
+
+.jumbotron h1
+{
+  color: #fff;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.btn-xlarge
+{
+  font-size: 1.7em;
+  background-color: black;
+}
+
+.article-actions
+{
+  border-top: 1px solid #eaeaea;
+  padding-top:5px;
+}
+
+footer
+{
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a:hover
+{
+  color: #222;
+}
+
+footer small
+{
+  float: left;
+}
+
+footer ul
+{
+  float: right;
+  list-style: none;
+}
+
+footer ul li
+{
+  float: left;
+  margin-left: 15px;
+}
+
+.description
+{
+  margin-top: 0px;
+}
+
+.article-title
+{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.article-body
+{
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.article-meta-details
+{
+  border-top: 1px solid #eaeaea;
+  margin-top: 15px;
+}
+
+.listing
+{
+  list-style: none;
+  padding-left: 0;
+}
+
+.comment
+{
+  border-radius: 7px;
+}
+
+.people
+{
+  border: none;
+  background: inherit;
+}
